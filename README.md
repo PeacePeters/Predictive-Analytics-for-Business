@@ -18,5 +18,5 @@ Here are the projects done using Alteryx, Python, and Tableau:
 * Project 3 [Create an Analytical Dataset]()
 * Project 4 [Predict Loan Default Risk]()
 * Project 5 [A/B Test a Menu Launch]()
-* Project 6 [Combine Predictive Techniques]
+* Project 6 [Combine Predictive Techniques]()
 
