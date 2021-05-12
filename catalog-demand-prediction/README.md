@@ -22,6 +22,6 @@ For our analysis, we have been provided with clean data which has all the requir
 
 Additional information provided are:
 
-▫ Thecostsofprintinganddistributingis$6.50percatalog.
+▫ The costs of printing and distributing is $6.50 per catalog.
 
-▫ Theaveragegrossmargin(price-cost)onallproductssoldthroughthecatalogis50%.
+▫ The average gross margin (price-cost) on all products sold through the catalog is 50%.
