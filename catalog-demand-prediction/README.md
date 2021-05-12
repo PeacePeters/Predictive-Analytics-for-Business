@@ -23,4 +23,5 @@ For our analysis, we have been provided with clean data which has all the requir
 Additional information provided are:
 
 ▫ Thecostsofprintinganddistributingis$6.50percatalog.
+
 ▫ Theaveragegrossmargin(price-cost)onallproductssoldthroughthecatalogis50%.
