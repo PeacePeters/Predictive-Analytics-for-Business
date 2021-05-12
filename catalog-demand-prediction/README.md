@@ -25,3 +25,8 @@ Additional information provided are:
 ▫ The costs of printing and distributing is $6.50 per catalog.
 
 ▫ The average gross margin (price-cost) on all products sold through the catalog is 50%.
+
+Looking at the data available in p1-customers.xlsx, we can see we have past data on Avg_Sales_Amount which is the average sales amount generated in the last catalog sent. Since we are predicting sales in order to get our expected profit, our target variable is Avg_Sales_Amount and it is a continuous numeric variable. Therefore, we will apply a Linear Regression model to solve our problem.
+In examining our data for better understanding, we can see that the information of each customer on <i>Customer_Segment</i>,<i> City</i>, Avg_Num_Products_Purchased & X_Years_as_Customer are likely the important factors in predicting the sales amount. Therefore, these are the potential predictor variables for our analysis.
+
+### Analysis, Modeling, and Validation
