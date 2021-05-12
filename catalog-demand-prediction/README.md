@@ -13,3 +13,13 @@ Being a part of the analytical team tasked to predict the expected revenue, we a
 * Building a model using last year mail-order catalog business data to predict the expected sales amount.
 * Next is calculating the potential revenue of each new customer by multiplying the predicted sale amount with the probability that the customer will respond to the catalog and make a purchase.
 * Finally, multiplying the aggregate by gross margin and then deducting the catalog printing cost for all customers to obtained the expected profit.
+
+### Data Understanding
+
+For our analysis, we have been provided with clean data which has all the required information required to the prediction. There two datasets:
+1. p1-customers.xlsx - contains data on about 2,300 customers and it is used to build the model
+2. p1-mailinglist.xlsx - contains data on 250 new customers that we need to predict sales. We use this dataset to estimate how much revenue the company can expect if they send out the catalog.
+
+Additional information provided are:
+▫ Thecostsofprintinganddistributingis$6.50percatalog.
+▫ Theaveragegrossmargin(price-cost)onallproductssoldthroughthecatalogis50%.
