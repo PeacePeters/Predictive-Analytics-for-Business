@@ -2,7 +2,7 @@
 
 In this [Predictive Analytics for Business](https://www.udacity.com/course/predictive-analytics-for-business-nanodegree--nd008t) program, we are applying predictive analytics and business intelligence to solve real-world business problems using Alteryx, Tableau, Python, SQL, and statistics.
 
-The nanodegree is broken into 5 main courses:
+The nanodegree is broken into 6 main courses:
 
 1. <b>Problem Solving with Advanced Analytics</b>: covers topics like analytical framework, simple Linear Regression and Multiple Linear Regression.
 2. <b>Data Wrangling</b>: is all about working with different data types, dirty data, and outliers. It also involves reformatting data and joining data from different sources together.
@@ -13,4 +13,10 @@ The nanodegree is broken into 5 main courses:
 
 ## Projects
 Here are the projects done using Alteryx, Python, and Tableau:
+* Project 1: [Diamond Price Prediction](https://github.com/PeacePeters/Predictive-Analytics-for-Business/tree/main/diamond-price-prediction)
+* Project 2 [Predict Sales for a Catalog Launch](https://github.com/PeacePeters/Predictive-Analytics-for-Business/tree/main/catalog-demand-prediction)
+* Project 3 [Create an Analytical Dataset]()
+* Project 4 [Predict Loan Default Risk]()
+* Project 5 [A/B Test a Menu Launch]()
+* Project 6 [Combine Predictive Techniques]
 
