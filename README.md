@@ -14,9 +14,9 @@ The nanodegree is broken into 6 main courses:
 ## Projects
 Here are the projects done using Alteryx, Python, and Tableau:
 * Project 1: [Diamond Price Prediction](https://github.com/PeacePeters/Predictive-Analytics-for-Business/tree/main/diamond-price-prediction)
-* Project 2 [Predict Sales for a Catalog Launch](https://github.com/PeacePeters/Predictive-Analytics-for-Business/tree/main/catalog-demand-prediction)
-* Project 3 [Create an Analytical Dataset]()
-* Project 4 [Predict Loan Default Risk]()
-* Project 5 [A/B Test a Menu Launch]()
-* Project 6 [Combine Predictive Techniques]()
+* Project 2: [Predict Sales for a Catalog Launch](https://github.com/PeacePeters/Predictive-Analytics-for-Business/tree/main/catalog-demand-prediction)
+* Project 3: [Create an Analytical Dataset]()
+* Project 4: [Predict Loan Default Risk]()
+* Project 5: [A/B Test a Menu Launch]()
+* Project 6: [Combine Predictive Techniques]()
 
