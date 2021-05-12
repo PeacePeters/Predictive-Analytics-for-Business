@@ -21,5 +21,6 @@ For our analysis, we have been provided with clean data which has all the requir
 2. p1-mailinglist.xlsx - contains data on 250 new customers that we need to predict sales. We use this dataset to estimate how much revenue the company can expect if they send out the catalog.
 
 Additional information provided are:
+
 ▫ Thecostsofprintinganddistributingis$6.50percatalog.
 ▫ Theaveragegrossmargin(price-cost)onallproductssoldthroughthecatalogis50%.
