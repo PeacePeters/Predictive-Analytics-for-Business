@@ -17,8 +17,8 @@ Being a part of the analytical team tasked to predict the expected revenue, we a
 ### Data Understanding
 
 For our analysis, we have been provided with clean data which has all the required information required to the prediction. There two datasets:
-1. p1-customers.xlsx - contains data on about 2,300 customers and it is used to build the model
-2. p1-mailinglist.xlsx - contains data on 250 new customers that we need to predict sales. We use this dataset to estimate how much revenue the company can expect if they send out the catalog.
+1. [p1-customers](https://github.com/PeacePeters/Predictive-Analytics-for-Business/blob/main/catalog-demand-prediction/dataset/p1-customers.xlsx) - contains data on about 2,300 customers and it is used to build the model
+2. [p1-mailinglist](https://github.com/PeacePeters/Predictive-Analytics-for-Business/blob/main/catalog-demand-prediction/dataset/p1-mailinglist.xlsx) - contains data on 250 new customers that we need to predict sales. We use this dataset to estimate how much revenue the company can expect if they send out the catalog.
 
 Additional information provided are:
 
