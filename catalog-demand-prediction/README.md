@@ -34,4 +34,6 @@ In examining our data for better understanding, we can see that the information 
 From our business and data understanding, we determined that we need to predict our target variable Avg_Sales_Amount using these critical predictor variables - Customer_Segment, City, Avg_Num_Products_Purchased & X_Years_as_Customer. Other variables are not logically and statistically significant in making prediction.
 To set up the multiple linear regression model, we first test the numeric predictor variables using scatter plot to understand their relationship with the target variable.
 
+Scatter plot of <i>Avg_Num_Products_Purchased</i> versus <i>Avg_Sales_Amount</i>
 
+As shown above, we can see that as the Avg_Num_Products_Purchased increases, the Avg_Sales_Amount increases too at an approximate linear fashion. The trend line which is sloped shows that the predictor variable: Avg_Num_Products_Purchased is a good potential predictor variable to use to create our multiple linear regression model. Also, from the graph of X_Years_as_Customer vs Avg_Sales_Amount, the trend line is flat indicating there is no relationship between the between the predictor and target variable.
