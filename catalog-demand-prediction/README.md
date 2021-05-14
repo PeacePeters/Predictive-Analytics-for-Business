@@ -27,13 +27,13 @@ Additional information provided are:
 ▫ The average gross margin (price-cost) on all products sold through the catalog is 50%.
 
 Looking at the data available in p1-customers.xlsx, we can see we have past data on Avg_Sales_Amount which is the average sales amount generated in the last catalog sent. Since we are predicting sales in order to get our expected profit, our target variable is Avg_Sales_Amount and it is a continuous numeric variable. Therefore, we will apply a Linear Regression model to solve our problem.
-In examining our data for better understanding, we can see that the information of each customer on <i>Customer_Segment</i>,<i> City</i>, Avg_Num_Products_Purchased & X_Years_as_Customer are likely the important factors in predicting the sales amount. Therefore, these are the potential predictor variables for our analysis.
+In examining our data for better understanding, we can see that the information of each customer on <i>Customer_Segment</i>,<i> City</i>, <i>Avg_Num_Products_Purchased</i> & <i>X_Years_as_Customer</i> are likely the important factors in predicting the sales amount. Therefore, these are the potential predictor variables for our analysis.
 
 ### Analysis, Modeling, and Validation
 
-From our business and data understanding, we determined that we need to predict our target variable Avg_Sales_Amount using these critical predictor variables - Customer_Segment, City, Avg_Num_Products_Purchased & X_Years_as_Customer. Other variables are not logically and statistically significant in making prediction.
+From our business and data understanding, we determined that we need to predict our target variable <i>Avg_Sales_Amount</i> using these critical predictor variables - <i>Customer_Segment</i>,<i> City</i>, <i>Avg_Num_Products_Purchased</i> & <i>X_Years_as_Customer</i>. Other variables are not logically and statistically significant in making prediction.
 To set up the multiple linear regression model, we first test the numeric predictor variables using scatter plot to understand their relationship with the target variable.
 
 Scatter plot of <i>Avg_Num_Products_Purchased</i> versus <i>Avg_Sales_Amount</i>
 
-As shown above, we can see that as the Avg_Num_Products_Purchased increases, the Avg_Sales_Amount increases too at an approximate linear fashion. The trend line which is sloped shows that the predictor variable: Avg_Num_Products_Purchased is a good potential predictor variable to use to create our multiple linear regression model. Also, from the graph of X_Years_as_Customer vs Avg_Sales_Amount, the trend line is flat indicating there is no relationship between the between the predictor and target variable.
+As shown above, we can see that as the Avg_Num_Products_Purchased increases, the <i>Avg_Sales_Amount</i> increases too at an approximate linear fashion. The trend line which is sloped shows that the predictor variable: A<i>vg_Num_Products_Purchased</i> is a good potential predictor variable to use to create our multiple linear regression model. Also, from the graph of <i>X_Years_as_Customer</i> vs <i>Avg_Sales_Amount</i>, the trend line is flat indicating there is no relationship between the between the predictor and target variable.
