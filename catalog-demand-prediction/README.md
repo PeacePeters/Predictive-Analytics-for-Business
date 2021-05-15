@@ -36,6 +36,7 @@ To set up the multiple linear regression model, we first test the numeric predic
 
 Scatter plot of <i>Avg_Num_Products_Purchased</i> versus <i>Avg_Sales_Amount</i>
 ![Screenshot 2021-05-04 095557](https://user-images.githubusercontent.com/68206315/118359323-cd4dd600-b57a-11eb-8f90-d059d67afaf1.png)
+
 Scatter plot of <i>X_Years_as_Customer</i> versus <i>Avg_Sales_Amount</i>
 ![Screenshot 2021-05-04 100021](https://user-images.githubusercontent.com/68206315/118359347-e5255a00-b57a-11eb-954f-55e139ace044.png)
 
