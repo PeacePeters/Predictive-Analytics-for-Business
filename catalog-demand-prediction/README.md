@@ -29,7 +29,7 @@ Additional information provided are:
 Looking at the data available in p1-customers.xlsx, we can see we have past data on Avg_Sales_Amount which is the average sales amount generated in the last catalog sent. Since we are predicting sales in order to get our expected profit, our target variable is Avg_Sales_Amount and it is a continuous numeric variable. Therefore, we will apply a Linear Regression model to solve our problem.
 In examining our data for better understanding, we can see that the information of each customer on <i>Customer_Segment</i>,<i> City</i>, <i>Avg_Num_Products_Purchased</i> & <i>X_Years_as_Customer</i> are likely the important factors in predicting the sales amount. Therefore, these are the potential predictor variables for our analysis.
 
-### Analysis, Modeling, and Validation
+## Analysis, Modeling, and Validation
 
 From our business and data understanding, we determined that we need to predict our target variable <i>Avg_Sales_Amount</i> using these critical predictor variables - <i>Customer_Segment</i>,<i> City</i>, <i>Avg_Num_Products_Purchased</i> & <i>X_Years_as_Customer</i>. Other variables are not logically and statistically significant in making prediction.
 To set up the multiple linear regression model, we first test the numeric predictor variables using scatter plot to understand their relationship with the target variable.
