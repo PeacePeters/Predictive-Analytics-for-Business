@@ -37,7 +37,7 @@ To set up the multiple linear regression model, we first test the numeric predic
 Scatter plot of <i>Avg_Num_Products_Purchased</i> versus <i>Avg_Sales_Amount</i>
 ![Screenshot 2021-05-04 095557](https://user-images.githubusercontent.com/68206315/118359323-cd4dd600-b57a-11eb-8f90-d059d67afaf1.png)
 
-Scatter plot of <i>X_Years_as_Customer</i> versus <i>Avg_Sales_Amount</i>
+>Scatter plot of <i>X_Years_as_Customer</i> versus <i>Avg_Sales_Amount</i>
 ![Screenshot 2021-05-04 100021](https://user-images.githubusercontent.com/68206315/118359347-e5255a00-b57a-11eb-954f-55e139ace044.png)
 
 As shown above, we can see that as the Avg_Num_Products_Purchased increases, the <i>Avg_Sales_Amount</i> increases too at an approximate linear fashion. The trend line which is sloped shows that the predictor variable: A<i>vg_Num_Products_Purchased</i> is a good potential predictor variable to use to create our multiple linear regression model. Also, from the graph of <i>X_Years_as_Customer</i> vs <i>Avg_Sales_Amount</i>, the trend line is flat indicating there is no relationship between the between the predictor and target variable.
