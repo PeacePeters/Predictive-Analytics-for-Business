@@ -62,3 +62,17 @@ Now that we have establish our good predictor variables, we run our initial mode
 
 Finally, we build the linear regression model using <i>Avg_Sales_Amount</i> as target variable and <i>Avg_Num_Products_Purchased</i> & <i>Customer_Segment</i> as predictor variables
 ![CDR](https://user-images.githubusercontent.com/68206315/118378660-2f372b80-b5cd-11eb-93c2-8eea63d37d5c.png)
+
+For our model, we can see that both predictor variables have a P-values of ```< .00000000000000022``` which is very small! This means the relationship between the predictor variables and the target variable is statistically significant.
+The <b>Adjusted R-squared</b> value is ```0.8366``` which means the model is strong, since a R-squared greater than or equal to 0.7 is considered strong. This indicate that the model has a high explanatory power. Therefore, with low P-values and a high R-squared the model is highly predictive and we can confidently predict the sales amount and perform analysis.
+
+#### Final Project Workflow
+![Workflow](https://user-images.githubusercontent.com/68206315/118378850-44f92080-b5ce-11eb-9e60-99e46904114b.png)
+
+### Regression Equation
+The best linear regression equation based on the analysis, model and validation is:
+Predicted_Average_Sales = 303.46 + -149.36 * (Loyalty Club Only) + 281.84 * (Loyalty Club and Credit Card) + -245.42 * (Store Mailing List) + 0 * (Credit Card Only) + 66.98 * (Avg_Num_Products_Purchased)
+
+## Presentation/Visualization
+Scatter plot of actual average sales and predicted average sales versus Avg_Num_Products_Purchased
+
