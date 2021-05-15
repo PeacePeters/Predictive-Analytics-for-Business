@@ -26,13 +26,21 @@ Additional information provided are:
 
 ▫ The average gross margin (price-cost) on all products sold through the catalog is 50%.
 
+p1-customers.xlsx
+![Screenshot 2021-05-15 143729](https://user-images.githubusercontent.com/68206315/118378066-feed8e00-b5c8-11eb-879c-36cf003042bd.png)
+
+p1-mailinglist
+![Screenshot 2021-05-15 143607](https://user-images.githubusercontent.com/68206315/118378072-0b71e680-b5c9-11eb-9a97-7fa5a9d50425.png)
+
 Looking at the data available in p1-customers.xlsx, we can see we have past data on Avg_Sales_Amount which is the average sales amount generated in the last catalog sent. Since we are predicting sales in order to get our expected profit, our target variable is Avg_Sales_Amount and it is a continuous numeric variable. Therefore, we will apply a Linear Regression model to solve our problem.
 In examining our data for better understanding, we can see that the information of each customer on <i>Customer_Segment</i>,<i> City</i>, <i>Avg_Num_Products_Purchased</i> & <i>X_Years_as_Customer</i> are likely the important factors in predicting the sales amount. Therefore, these are the potential predictor variables for our analysis.
 
 ## Analysis, Modeling, and Validation
 
-From our business and data understanding, we determined that we need to predict our target variable ```Avg_Sales_Amount``` using these critical predictor variables ```Customer_Segment``` ```City```, <i>Avg_Num_Products_Purchased</i> & <i>X_Years_as_Customer</i>. Other variables are not logically and statistically significant in making prediction.
+From our business and data understanding, we determined that we need to predict our target variable ```Avg_Sales_Amount``` using these critical predictor variables ```Customer_Segment``` ```City```, ```Avg_Num_Products_Purchased``` & ```X_Years_as_Customer```. Other variables are not logically and statistically significant in making prediction.
 To set up the multiple linear regression model, we first test the numeric predictor variables using scatter plot to understand their relationship with the target variable.
+
+#### Testing Numeric variables Assumptions using Scatter Plot
 
 Scatter plot of <i>Avg_Num_Products_Purchased</i> versus <i>Avg_Sales_Amount</i>
 ![Screenshot 2021-05-04 095557](https://user-images.githubusercontent.com/68206315/118359323-cd4dd600-b57a-11eb-8f90-d059d67afaf1.png)
@@ -43,3 +51,7 @@ Scatter plot of <i>X_Years_as_Customer</i> versus <i>Avg_Sales_Amount</i>
 As shown above, we can see that as the Avg_Num_Products_Purchased increases, the <i>Avg_Sales_Amount</i> increases too at an approximate linear fashion. The trend line which is sloped shows that the predictor variable: A<i>vg_Num_Products_Purchased</i> is a good potential predictor variable to use to create our multiple linear regression model. Also, from the graph of <i>X_Years_as_Customer</i> vs <i>Avg_Sales_Amount</i>, the trend line is flat indicating there is no relationship between the between the predictor and target variable.
 
 For the categorical variables, we use trial and error to check which are statistically significant. This is done by running the categorical variables through the regression model and checking the P-values.
+
+Report for linear model with potential categorical variables
+![CV2](https://user-images.githubusercontent.com/68206315/118378270-825baf00-b5ca-11eb-9fc1-8ced313f85e1.png)
+
