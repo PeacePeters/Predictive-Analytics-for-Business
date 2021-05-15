@@ -75,7 +75,7 @@ The best linear regression equation based on the analysis, model and validation 
 ```Predicted_Average_Sales = 303.46 + -149.36 * (Loyalty Club Only) + 281.84 * (Loyalty Club and Credit Card) + -245.42 * (Store Mailing List) + 0 * (Credit Card Only) + 66.98 * (Avg_Num_Products_Purchased)```
 
 ## Presentation/Visualization
-Scatter plot of actual average sales and predicted average sales versus Avg_Num_Products_Purchased
+Scatter plot of <b>actual</b> average sales and <b>predicted</b> average sales versus Avg_Num_Products_Purchased
 <img width="745" alt="Screenshot 2021-05-15 at 22 45 23" src="https://user-images.githubusercontent.com/68206315/118379014-71616c80-b5cf-11eb-998f-88f2a80f1004.png">
 
 We can see that the actual average sales increases with the number of products purchased, but there’s a lot of variation among customers that bought the same number of products. This makes it less compact than the predicted average sales and that’s because we are not accounting for other predictor variables that affects the sales amount. As seen in our formula, predictor variables like customer segment accounted for some of the variation.
