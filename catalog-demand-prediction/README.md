@@ -81,13 +81,11 @@ Scatter plot of actual average sales and predicted average sales versus Avg_Num_
 We can see that the actual average sales increases with the number of products purchased, but there’s a lot of variation among customers that bought the same number of products. This makes it less compact than the predicted average sales and that’s because we are not accounting for other predictor variables that affects the sales amount. As seen in our formula, predictor variables like customer segment accounted for some of the variation.
 
 We recommend the company send out catalog to its 250 new customers because the expected profit exceed $10,000. We arrive at this decision through the following steps:
-• Using the best linear regression equation determined above, we calculated the Predicted_Average_Sales based on the attributes of the 250 new customers.
-• Next, we multiply the result by [Score_Yes] column which is the probability that the customer will respond to the catalog and make a purchase. This gives us the Expected_Revenue as shown below:
+* Using the best linear regression equation determined above, we calculated the ```Predicted_Average_Sales``` based on the attributes of the 250 new customers.
+* Next, we multiply the result by ```Score_Yes``` column which is the probability that the customer will respond to the catalog and make a purchase. This gives us the ```Expected_Revenue``` as shown below:
 ![Exp Revenue](https://user-images.githubusercontent.com/68206315/118379117-56432c80-b5d0-11eb-9ff1-11fde50761ac.png)
 
-Next we add all the expected revenue together. This gives us an estimate of the total revenue generated from the 250 customers, which is $47,224.87
-• Finally, we multiply [Sum_Expected_Revenue] by 50% gross margin, and then deducted catalog printing cost for all customers ($6.5*250) to obtain the expected profit
-• The expected profit from the new catalog is $21,987.44. This is above management required threshold of $10,000
-
-
-
+* Next we add all the expected revenue together. This gives us an estimate of the total revenue generated from the 250 customers, which is ```$47,224.87```
+* Finally, we multiply ```Sum_Expected_Revenue``` by 50% gross margin, and then deducted catalog printing cost for all customers ```$6.5*250``` to obtain the expected profit.
+* The ```Expected_Profit``` from the new catalog is ```$21,987.44```. This is above management required threshold of $10,000
+<img width="745" alt="Screenshot 2021-05-15 at 23 01 36" src="https://user-images.githubusercontent.com/68206315/118379350-b2f31700-b5d1-11eb-86cd-4c318c48ad57.png">
