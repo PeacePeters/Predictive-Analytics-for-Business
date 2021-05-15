@@ -29,7 +29,7 @@ Additional information provided are:
 p1-customers.xlsx
 ![Screenshot 2021-05-15 143729](https://user-images.githubusercontent.com/68206315/118378066-feed8e00-b5c8-11eb-879c-36cf003042bd.png)
 
-p1-mailinglist
+p1-mailinglist.xlsx
 ![Screenshot 2021-05-15 143607](https://user-images.githubusercontent.com/68206315/118378072-0b71e680-b5c9-11eb-9a97-7fa5a9d50425.png)
 
 Looking at the data available in p1-customers.xlsx, we can see we have past data on Avg_Sales_Amount which is the average sales amount generated in the last catalog sent. Since we are predicting sales in order to get our expected profit, our target variable is Avg_Sales_Amount and it is a continuous numeric variable. Therefore, we will apply a Linear Regression model to solve our problem.
@@ -50,8 +50,15 @@ Scatter plot of <i>X_Years_as_Customer</i> versus <i>Avg_Sales_Amount</i>
 
 As shown above, we can see that as the Avg_Num_Products_Purchased increases, the <i>Avg_Sales_Amount</i> increases too at an approximate linear fashion. The trend line which is sloped shows that the predictor variable: A<i>vg_Num_Products_Purchased</i> is a good potential predictor variable to use to create our multiple linear regression model. Also, from the graph of <i>X_Years_as_Customer</i> vs <i>Avg_Sales_Amount</i>, the trend line is flat indicating there is no relationship between the between the predictor and target variable.
 
-For the categorical variables, we use trial and error to check which are statistically significant. This is done by running the categorical variables through the regression model and checking the P-values.
+For the categorical variables, we use trial and error to check which are statistically significant. This is done by running the categorical variables through the regression model and checking the P-values. P-value is the probability that the coefficient estimate (the observed result) is zero. The lower the p-value the higher the probability that a relationship exists between the predictor and target variable. If the p-value is high, we should not rely on the coefficient estimate.
 
 Report for linear model with potential categorical variables
 ![CV2](https://user-images.githubusercontent.com/68206315/118378270-825baf00-b5ca-11eb-9fc1-8ced313f85e1.png)
 
+We are looking for categorical variables with the P-values less than 0.05. From the figure above, City has a high ```P-value = 0.67246``` with no significant code. This means we should not rely on the coefficient estimate and therefore cannot be used as a predictor for our model. On the other hand, Customer_Segment is statistically significant with a very small ```P-value < 0.00000000000000022```.
+
+Now that we have establish our good predictor variables, we run our initial model using all the potential predictor variables
+![ALL_V1](https://user-images.githubusercontent.com/68206315/118378613-f26b3480-b5cc-11eb-8677-d9ea1ba3f37a.png)
+
+Finally, we build the linear regression model using <i>Avg_Sales_Amount</i> as target variable and <i>Avg_Num_Products_Purchased</i> & <i>Customer_Segment</i> as predictor variables
+![CDR](https://user-images.githubusercontent.com/68206315/118378660-2f372b80-b5cd-11eb-93c2-8eea63d37d5c.png)
