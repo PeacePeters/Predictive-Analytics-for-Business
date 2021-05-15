@@ -1,4 +1,4 @@
-# Predictive Analytics for Busines Nanodegrees
+# Predictive Analytics for Busines Nanodegree
 
 In this [Predictive Analytics for Business](https://www.udacity.com/course/predictive-analytics-for-business-nanodegree--nd008t) program, we are applying predictive analytics and business intelligence to solve real-world business problems using Alteryx, Tableau, Python, SQL, and statistics.
 
