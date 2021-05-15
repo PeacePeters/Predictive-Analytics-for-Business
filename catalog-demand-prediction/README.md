@@ -72,9 +72,7 @@ The <b>Adjusted R-squared</b> value is ```0.8366``` which means the model is str
 ### Regression Equation
 The best linear regression equation based on the analysis, model and validation is:
 
-```ruby
-Predicted_Average_Sales = 303.46 + -149.36 * (Loyalty Club Only) + 281.84 * (Loyalty Club and Credit Card) + -245.42 * (Store Mailing List) + 0 * (Credit Card Only) + 66.98 * (Avg_Num_Products_Purchased)
-```
+```Predicted_Average_Sales = 303.46 + -149.36 * (Loyalty Club Only) + 281.84 * (Loyalty Club and Credit Card) + -245.42 * (Store Mailing List) + 0 * (Credit Card Only) + 66.98 * (Avg_Num_Products_Purchased)```
 
 ## Presentation/Visualization
 Scatter plot of actual average sales and predicted average sales versus Avg_Num_Products_Purchased
@@ -85,6 +83,7 @@ We can see that the actual average sales increases with the number of products p
 We recommend the company send out catalog to its 250 new customers because the expected profit exceed $10,000. We arrive at this decision through the following steps:
 * Using the best linear regression equation determined above, we calculated the ```Predicted_Average_Sales``` based on the attributes of the 250 new customers.
 * Next, we multiply the result by ```Score_Yes``` column which is the probability that the customer will respond to the catalog and make a purchase. This gives us the ```Expected_Revenue``` as shown below:
+
 ![Exp Revenue](https://user-images.githubusercontent.com/68206315/118379117-56432c80-b5d0-11eb-9ff1-11fde50761ac.png)
 
 * Next we add all the expected revenue together. This gives us an estimate of the total revenue generated from the 250 customers, which is ```$47,224.87```
