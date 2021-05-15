@@ -72,7 +72,9 @@ The <b>Adjusted R-squared</b> value is ```0.8366``` which means the model is str
 ### Regression Equation
 The best linear regression equation based on the analysis, model and validation is:
 
-```Predicted_Average_Sales = 303.46 + -149.36 * (Loyalty Club Only) + 281.84 * (Loyalty Club and Credit Card) + -245.42 * (Store Mailing List) + 0 * (Credit Card Only) + 66.98 * (Avg_Num_Products_Purchased)```
+```ruby
+Predicted_Average_Sales = 303.46 + -149.36 * (Loyalty Club Only) + 281.84 * (Loyalty Club and Credit Card) + -245.42 * (Store Mailing List) + 0 * (Credit Card Only) + 66.98 * (Avg_Num_Products_Purchased)
+```
 
 ## Presentation/Visualization
 Scatter plot of actual average sales and predicted average sales versus Avg_Num_Products_Purchased
