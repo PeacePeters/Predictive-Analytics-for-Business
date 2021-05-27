@@ -36,3 +36,7 @@ Looking at ```p2-2010-pawdacity-monthly-sales.csv```, it is a structured data wi
 
 ![dt](https://user-images.githubusercontent.com/68206315/119833893-6542ac80-bef7-11eb-8930-380f1649ae0c.png)
 
+## Data Formatting 
+* First, we’ll have to transform the Pawdacity sales dataset using Transform tool.
+
+<img width="685" alt="Screenshot 2021-05-27 at 14 18 24" src="https://user-images.githubusercontent.com/68206315/119834669-11849300-bef8-11eb-9f03-7a9ce2636b99.png">
