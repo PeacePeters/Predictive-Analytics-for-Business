@@ -47,3 +47,8 @@ Looking at ```p2-2010-pawdacity-monthly-sales.csv```, it is a structured data wi
 Transformed dataset with yearly sales values
 
 ![ss1](https://user-images.githubusercontent.com/68206315/119835221-8ce64480-bef8-11eb-9d3c-8c76ae10a48c.png)
+
+### Data Cleaning
+By checking p2-partially-parsed-wy-web-scrape.csv file for data issues, we will find missing data, improperly parsed data, and data with extra characters. 
+#### Missing Data
+As shown in the field summary report below, we are missing a few observations for the City|County field. We can either delete or impute. Since there are only a few (3.9%) and they are all the extraneous data that we do not need, let’s delete the records. This can be done by filtering out the NULL data using the Filter tool. 
