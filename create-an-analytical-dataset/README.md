@@ -36,7 +36,7 @@ Looking at ```p2-2010-pawdacity-monthly-sales.csv```, it is a structured data wi
 
 ![dt](https://user-images.githubusercontent.com/68206315/119833893-6542ac80-bef7-11eb-8930-380f1649ae0c.png)
 
-## Data Formatting 
+### Data Formatting 
 * First, we’ll have to transform the Pawdacity sales dataset using Transform tool.
 
 <img width="685" alt="Screenshot 2021-05-27 at 14 18 24" src="https://user-images.githubusercontent.com/68206315/119834669-11849300-bef8-11eb-9f03-7a9ce2636b99.png">
@@ -52,3 +52,8 @@ Transformed dataset with yearly sales values
 By checking p2-partially-parsed-wy-web-scrape.csv file for data issues, we will find missing data, improperly parsed data, and data with extra characters. 
 #### Missing Data
 As shown in the field summary report below, we are missing a few observations for the City|County field. We can either delete or impute. Since there are only a few (3.9%) and they are all the extraneous data that we do not need, let’s delete the records. This can be done by filtering out the NULL data using the Filter tool. 
+
+![ms](https://user-images.githubusercontent.com/68206315/119837240-4eea2000-befa-11eb-9b89-e7126952b2ed.png)
+
+
+<img width="670" alt="Screenshot 2021-05-27 at 14 41 05" src="https://user-images.githubusercontent.com/68206315/119837125-35e16f00-befa-11eb-99d2-8ec7b54aa9af.png">
