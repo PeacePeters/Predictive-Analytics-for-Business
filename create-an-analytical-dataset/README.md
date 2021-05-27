@@ -66,4 +66,7 @@ Parsed data
 #### Extra characters in fields
 Extra characters make it difficult to use the data readily. Therefore, we have to remove them before analysis can be run. The steps involved are as follows: 
  
-• First, we use the function replace CHAR within the Formula tool to replace this character “?” in col1 (city) filed with no character.
+* First, we use the function ```replaceCHAR``` within the Formula tool to replace this character “?” in ```col1``` (city) filed with no character.
+* Then we remove whitespaces from the col1 field using the trim function. 
+* Next, we replace these characters “,<” in 2010 Census2 field with nothing using replace CHAR function. 
+![ps3](https://user-images.githubusercontent.com/68206315/119839949-7510bf80-befc-11eb-882b-aa0eeaf2cdfe.png)
