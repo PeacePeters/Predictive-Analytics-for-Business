@@ -55,5 +55,10 @@ As shown in the field summary report below, we are missing a few observations fo
 
 ![ms](https://user-images.githubusercontent.com/68206315/119837240-4eea2000-befa-11eb-9b89-e7126952b2ed.png)
 
+#### Partially Parsed Data
+The ```City|County``` and ```2010 Census``` fields both have the required data for analysis embedded in one field. We will need to parse the data into different fields. For City|County, the vertical line ```|``` is used to delimit the data into 2 fields while the delimiters ```>/s``` are used to divide 2010 Census field into 3 parts
 
 <img width="670" alt="Screenshot 2021-05-27 at 14 41 05" src="https://user-images.githubusercontent.com/68206315/119837125-35e16f00-befa-11eb-99d2-8ec7b54aa9af.png">
+
+Parsed data
+![ps2](https://user-images.githubusercontent.com/68206315/119838008-f7987f80-befa-11eb-8f0d-d45962b88564.png)
