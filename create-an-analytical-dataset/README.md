@@ -62,3 +62,8 @@ The ```City|County``` and ```2010 Census``` fields both have the required data f
 
 Parsed data
 ![ps2](https://user-images.githubusercontent.com/68206315/119838008-f7987f80-befa-11eb-8f0d-d45962b88564.png)
+
+#### Extra characters in fields
+Extra characters make it difficult to use the data readily. Therefore, we have to remove them before analysis can be run. The steps involved are as follows: 
+ 
+• First, we use the function replace CHAR within the Formula tool to replace this character “?” in col1 (city) filed with no character.
