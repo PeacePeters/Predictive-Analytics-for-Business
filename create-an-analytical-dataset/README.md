@@ -68,5 +68,15 @@ Extra characters make it difficult to use the data readily. Therefore, we have t
  
 * First, we use the function ```replaceCHAR``` within the Formula tool to replace this character “?” in ```col1``` (city) filed with no character.
 * Then we remove whitespaces from the col1 field using the trim function. 
-* Next, we replace these characters “,<” in 2010 Census2 field with nothing using replace CHAR function. 
+* Next, we replace these characters ```,<``` in ```2010 Census2``` field with nothing using ```replaceCHAR``` function. 
+
 ![ps3](https://user-images.githubusercontent.com/68206315/119839949-7510bf80-befc-11eb-882b-aa0eeaf2cdfe.png)
+
+* Finally, the Select tool is used to remove fields no longer needed, rename existing fields, and change the variable type. The result  of the newly parsed data with the fixed field is shown below. 
+
+![s1](https://user-images.githubusercontent.com/68206315/119840184-a8534e80-befc-11eb-8bfb-61d2e33c8cba.png)
+
+#### Data Blending
+To build our analytical dataset, we will have to merge each of the datasets by consolidating at the city level since we only have enough data for analysis at the city-wide level. The Join Multiple tool is used to merge the datasets as shown in the workflow. 
+
+![wf2](https://user-images.githubusercontent.com/68206315/119840432-e8b2cc80-befc-11eb-93a6-1b25ae05f511.png)
