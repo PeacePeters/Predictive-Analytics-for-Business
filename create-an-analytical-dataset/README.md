@@ -44,4 +44,5 @@ Looking at ```p2-2010-pawdacity-monthly-sales.csv```, it is a structured data wi
 * Then we’ll use the summarize tool to aggregate the yearly sales for each city. 
 * And lastly, we will rename the field using Select tool Next  
 
-Transformed dataset with yearly sales values![ss1](https://user-images.githubusercontent.com/68206315/119835221-8ce64480-bef8-11eb-9d3c-8c76ae10a48c.png)
+Transformed dataset with yearly sales values
+![ss1](https://user-images.githubusercontent.com/68206315/119835221-8ce64480-bef8-11eb-9d3c-8c76ae10a48c.png)
