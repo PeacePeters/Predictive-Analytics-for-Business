@@ -84,3 +84,5 @@ To build our analytical dataset, we will have to merge each of the datasets by c
 <i>Analytical Dataset</i>
 ![data](https://user-images.githubusercontent.com/68206315/120712993-3e691500-c4b9-11eb-94ff-12a2d295f74b.png)
 
+<i>Sum of numerical variables</i>
+![sum](https://user-images.githubusercontent.com/68206315/120713295-9b64cb00-c4b9-11eb-8ad9-843c7301529e.png)
