@@ -133,6 +133,8 @@ Now, let’s look at the second outlier – Gillette. We can see that the sales 
  
 Aso, by looking at the scatterplots we can see that the slope has stayed fairly consistent with the slope of the original plot. This means that the analysis and potential models that we might build based on the data with the outlier would stay consistent with what we might have without the outlier. So, it is best to remove the outlier – ```Gillette``` since the high sales value is not justifiable with the other attributes of the city. 
  
+Scatterplots of Census Population vs Total Pawdacity Sales with and without outlier – Cheyenne 
+<img width="610" alt="Screenshot 2021-06-03 at 23 02 55" src="https://user-images.githubusercontent.com/68206315/120717697-e8e43680-c4bf-11eb-9898-5b953e32495c.png">
 
  
 
