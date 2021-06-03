@@ -136,6 +136,7 @@ Aso, by looking at the scatterplots we can see that the slope has stayed fairly 
 Scatterplots of Census Population vs Total Pawdacity Sales with and without outlier – Cheyenne 
 <img width="610" alt="Screenshot 2021-06-03 at 23 02 55" src="https://user-images.githubusercontent.com/68206315/120717697-e8e43680-c4bf-11eb-9898-5b953e32495c.png">
 
- 
+ Finally, by removing the outlier – Gillette, we now have our analytical dataset with ```seven variables``` and ```ten records``` (10 cities) 
 
+![data2](https://user-images.githubusercontent.com/68206315/120717950-6019ca80-c4c0-11eb-8f51-361648e472fd.png)
 
