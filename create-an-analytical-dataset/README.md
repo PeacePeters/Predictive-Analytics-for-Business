@@ -86,3 +86,29 @@ To build our analytical dataset, we will have to merge each of the datasets by c
 
 <i>Sum of numerical variables</i>
 ![sum](https://user-images.githubusercontent.com/68206315/120713295-9b64cb00-c4b9-11eb-8ad9-843c7301529e.png)
+
+Attributes | Sum | Average
+ | ------------- | -------------
+Census Population | 213,862 | 19,442 
+Total Pawdacity Sales | 3,773,304 | 343,027.64
+Households with Under 18 | 34,064 | 3,096.73
+Land Area | 33,071 | 3,006.45
+Population Density | 63 | 5.73
+Total Families | 62,653 | 5,695.73 
+
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+
