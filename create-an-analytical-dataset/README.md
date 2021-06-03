@@ -89,7 +89,7 @@ To build our analytical dataset, we will have to merge each of the datasets by c
 
 
 Attributes | Sum | Average
- | ------------- | -------------
+ | ------------- | ------------- | -------------
 Census Population | 213,862 | 19,442 
 Total Pawdacity Sales | 3,773,304 | 343,027.64
 Households with Under 18 | 34,064 | 3,096.73
