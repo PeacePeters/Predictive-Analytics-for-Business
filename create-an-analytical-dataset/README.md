@@ -119,17 +119,19 @@ Total Families | Cheyenne | 14,612.64
 Let’s look at the outliers in details. 
  
 #### Land Area 
-One record – Rock Springs is an outlier, with large land area. From the scatterplot, this seem to be in line with the trend, and not dramatically different from original plot. So, it is best to keep the outlier considering the small size of the dataset and the sales value for Rock Springs is within the normal range. 
+One record – ```Rock Springs``` is an outlier, with large land area. From the scatterplot, this seem to be in line with the trend, and not dramatically different from original plot. So, it is best to keep the outlier considering the small size of the dataset and the sales value for Rock Springs is within the normal range. 
  
 Scatterplots of Land Area vs Total Pawdacity Sales with and without outlier – Rock Springs 
 <img width="616" alt="Screenshot 2021-06-03 at 22 55 41" src="https://user-images.githubusercontent.com/68206315/120717179-049b0d00-c4bf-11eb-9fec-27140de88527.png">
 
 #### Total Pawdacity Sales
-Two records are outliers – Cheyenne & Gillette, with very high sales values. Having a look at Cheyenne, it seems that the data is probably right and can be justified seeing other attributes of the city like Census Population, Total Families, etc. are also very high. Based on the fitted line in the scatter plots, the outlier is in line with the relationship, so we will leave it in.  
+Two records are outliers – ```Cheyenne & Gillette```, with very high sales values. Having a look at Cheyenne, it seems that the data is probably right and can be justified seeing other attributes of the city like Census Population, Total Families, etc. are also very high. Based on the fitted line in the scatter plots, the outlier is in line with the relationship, so we will leave it in.  
  
 <img width="622" alt="Screenshot 2021-06-03 at 22 57 57" src="https://user-images.githubusercontent.com/68206315/120717326-43c95e00-c4bf-11eb-8a1f-96d84e47d15e.png">
 
-
+Now, let’s look at the second outlier – Gillette. We can see that the sales value is high, which is not in line with other attributes of the city. Since we cannot confirm from the source that the data is incorrect, we can assume it is abnormal because with similar data values for Rock Springs, we do not have a high sales value.  
+ 
+Aso, by looking at the scatterplots we can see that the slope has stayed fairly consistent with the slope of the original plot. This means that the analysis and potential models that we might build based on the data with the outlier would stay consistent with what we might have without the outlier. So, it is best to remove the outlier – ```Gillette``` since the high sales value is not justifiable with the other attributes of the city. 
  
 
  
