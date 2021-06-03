@@ -106,9 +106,18 @@ In identifying the cities with outlier values for each attribute, we use the Fil
 
 <img width="616" alt="Screenshot 2021-06-03 at 22 45 24" src="https://user-images.githubusercontent.com/68206315/120716126-838f4600-c4bd-11eb-98be-eb191df8e623.png">
 
+ <i>Outliers for each attribute </i>
+ Attributes | Outliers | Outlier values
+ | ------------- | ------------- | -------------
+Census Population | Cheyenne | 59,466
+Total Pawdacity Sales | Cheyenne & Gillette | 917,892 & 543,132
+Households with Under 18 | None | None
+Land Area | Rock Springs | 6,620.20 
+Population Density | Cheyenne | 20.34 
+Total Families | Cheyenne | 14,612.64
  
  
- 
+
 
 
  
