@@ -87,7 +87,7 @@ To build our analytical dataset, we will have to merge each of the datasets by c
 <i>Sum of numerical variables</i>
 ![sum](https://user-images.githubusercontent.com/68206315/120713295-9b64cb00-c4b9-11eb-8ad9-843c7301529e.png)
 
-<i>To obtain the Average, we will divide the sum by the total number of records (11 cities) in our analytical dataset.</i>
+<i>To obtain the Average, we will divide the sum by the total number of records ```11 cities``` in our analytical dataset.</i>
 Attributes | Sum | Average
  | ------------- | ------------- | -------------
 Census Population | 213,862 | 19,442 
