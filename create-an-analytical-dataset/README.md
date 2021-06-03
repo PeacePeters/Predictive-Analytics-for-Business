@@ -97,9 +97,15 @@ Land Area | 33,071 | 3,006.45
 Population Density | 63 | 5.73
 Total Families | 62,653 | 5,695.73 
 
+## Dealing with Outliers 
+Outliers are data that do not seem to fit with the data set as a whole. They may be too large or small when compared to other values in the field. To identify outliers in our cleaned dataset, we will use the IQR method. The tools used to calculate IQR, upper fence, and lower fence values are the Summarize and Formula tools. 
 
+<img width="670" alt="Screenshot 2021-06-03 at 22 43 59" src="https://user-images.githubusercontent.com/68206315/120715986-5347a780-c4bd-11eb-9440-ee721bfad453.png">
 
- 
+In identifying the cities with outlier values for each attribute, we use the Filter tool as shown below. 
+
+<img width="616" alt="Screenshot 2021-06-03 at 22 45 24" src="https://user-images.githubusercontent.com/68206315/120716126-838f4600-c4bd-11eb-98be-eb191df8e623.png">
+
  
  
  
