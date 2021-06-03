@@ -80,3 +80,7 @@ Extra characters make it difficult to use the data readily. Therefore, we have t
 To build our analytical dataset, we will have to merge each of the datasets by consolidating at the city level since we only have enough data for analysis at the city-wide level. The Join Multiple tool is used to merge the datasets as shown in the workflow. 
 
 ![wf2](https://user-images.githubusercontent.com/68206315/119840432-e8b2cc80-befc-11eb-93a6-1b25ae05f511.png)
+
+<i>Analytical Dataset</i>
+![data](https://user-images.githubusercontent.com/68206315/120712993-3e691500-c4b9-11eb-94ff-12a2d295f74b.png)
+
