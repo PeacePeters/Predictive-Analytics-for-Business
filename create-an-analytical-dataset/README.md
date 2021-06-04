@@ -80,3 +80,63 @@ Extra characters make it difficult to use the data readily. Therefore, we have t
 To build our analytical dataset, we will have to merge each of the datasets by consolidating at the city level since we only have enough data for analysis at the city-wide level. The Join Multiple tool is used to merge the datasets as shown in the workflow. 
 
 ![wf2](https://user-images.githubusercontent.com/68206315/119840432-e8b2cc80-befc-11eb-93a6-1b25ae05f511.png)
+
+<i>Analytical Dataset</i>
+![data](https://user-images.githubusercontent.com/68206315/120712993-3e691500-c4b9-11eb-94ff-12a2d295f74b.png)
+
+<i>Sum of numerical variables</i>
+![sum](https://user-images.githubusercontent.com/68206315/120713295-9b64cb00-c4b9-11eb-8ad9-843c7301529e.png)
+
+<i>To obtain the Average, we will divide the sum by the total number of records ```11 cities``` in our analytical dataset.</i>
+Attributes | Sum | Average
+ | ------------- | ------------- | -------------
+Census Population | 213,862 | 19,442 
+Total Pawdacity Sales | 3,773,304 | 343,027.64
+Households with Under 18 | 34,064 | 3,096.73
+Land Area | 33,071 | 3,006.45
+Population Density | 63 | 5.73
+Total Families | 62,653 | 5,695.73 
+
+## Dealing with Outliers 
+Outliers are data that do not seem to fit with the data set as a whole. They may be too large or small when compared to other values in the field. To identify outliers in our cleaned dataset, we will use the IQR method. The tools used to calculate IQR, upper fence, and lower fence values are the Summarize and Formula tools. 
+
+<img width="670" alt="Screenshot 2021-06-03 at 22 43 59" src="https://user-images.githubusercontent.com/68206315/120715986-5347a780-c4bd-11eb-9440-ee721bfad453.png">
+
+In identifying the cities with outlier values for each attribute, we use the Filter tool as shown below. 
+
+<img width="616" alt="Screenshot 2021-06-03 at 22 45 24" src="https://user-images.githubusercontent.com/68206315/120716126-838f4600-c4bd-11eb-98be-eb191df8e623.png">
+
+ <i>Outliers for each attribute </i>
+ Attributes | Outliers | Outlier values
+ | ------------- | ------------- | -------------
+Census Population | Cheyenne | 59,466
+Total Pawdacity Sales | Cheyenne & Gillette | 917,892 & 543,132
+Households with Under 18 | None | None
+Land Area | Rock Springs | 6,620.20 
+Population Density | Cheyenne | 20.34 
+Total Families | Cheyenne | 14,612.64
+ 
+Let’s look at the outliers in details. 
+ 
+#### Land Area 
+One record – ```Rock Springs``` is an outlier, with large land area. From the scatterplot, this seem to be in line with the trend, and not dramatically different from original plot. So, it is best to keep the outlier considering the small size of the dataset and the sales value for Rock Springs is within the normal range. 
+ 
+Scatterplots of Land Area vs Total Pawdacity Sales with and without outlier – Rock Springs 
+<img width="616" alt="Screenshot 2021-06-03 at 22 55 41" src="https://user-images.githubusercontent.com/68206315/120717179-049b0d00-c4bf-11eb-9fec-27140de88527.png">
+
+#### Total Pawdacity Sales
+Two records are outliers – ```Cheyenne & Gillette```, with very high sales values. Having a look at Cheyenne, it seems that the data is probably right and can be justified seeing other attributes of the city like Census Population, Total Families, etc. are also very high. Based on the fitted line in the scatter plots, the outlier is in line with the relationship, so we will leave it in.  
+ 
+<img width="622" alt="Screenshot 2021-06-03 at 22 57 57" src="https://user-images.githubusercontent.com/68206315/120717326-43c95e00-c4bf-11eb-8a1f-96d84e47d15e.png">
+
+Now, let’s look at the second outlier – Gillette. We can see that the sales value is high, which is not in line with other attributes of the city. Since we cannot confirm from the source that the data is incorrect, we can assume it is abnormal because with similar data values for Rock Springs, we do not have a high sales value.  
+ 
+Aso, by looking at the scatterplots we can see that the slope has stayed fairly consistent with the slope of the original plot. This means that the analysis and potential models that we might build based on the data with the outlier would stay consistent with what we might have without the outlier. So, it is best to remove the outlier – ```Gillette``` since the high sales value is not justifiable with the other attributes of the city. 
+ 
+Scatterplots of Census Population vs Total Pawdacity Sales with and without outlier – Cheyenne 
+<img width="610" alt="Screenshot 2021-06-03 at 23 02 55" src="https://user-images.githubusercontent.com/68206315/120717697-e8e43680-c4bf-11eb-9898-5b953e32495c.png">
+
+ Finally, by removing the outlier – Gillette, we now have our analytical dataset with ```seven variables``` and ```ten records``` (10 cities) 
+
+![data2](https://user-images.githubusercontent.com/68206315/120717950-6019ca80-c4c0-11eb-8f51-361648e472fd.png)
+
