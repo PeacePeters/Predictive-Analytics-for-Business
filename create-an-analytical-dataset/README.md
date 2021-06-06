@@ -16,8 +16,8 @@ Competitor sales could also be relevant to understand if there is significant cu
 Finally, we could gather data relative to our current local promotions and marketing budget spent per city on the current stores. We can also try to get information on the expected marketing funds the company will spend to promote the new store. 
 
 The data needed to create our dataset is in three different csv files. We need to make the data digestible for our analytic model by cleaning, formatting, and blending it. The files include:  
-1. [<i>p2-2010-pawdacity-monthly-sales.csv</i>](https://github.com/PeacePeters/Predictive-Analytics-for-Business/blob/main/create-an-analytical-dataset/datasets/p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv)- contains all of the monthly sales for all Pawdacity stores for 2010. 
-2. <i>p2-wy-demographic-data.csv</i> - contains demographic data for each city and county in Wyoming. 
+1. [<i>p2-2010-pawdacity-monthly-sales.csv</i>](https://github.com/PeacePeters/Predictive-Analytics-for-Business/blob/main/create-an-analytical-dataset/datasets/p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv) - contains all of the monthly sales for all Pawdacity stores for 2010. 
+2. [<i>p2-wy-demographic-data.csv</i>](https://github.com/PeacePeters/Predictive-Analytics-for-Business/blob/main/create-an-analytical-dataset/datasets/p2-partially-parsed-wy-web-scrape.csv) - contains demographic data for each city and county in Wyoming. 
 3. <i>p2-partially-parsed-wy-web-scrape.csv</i> - is a partially parsed data file that can be used for population numbers. 
 
 ## Building the Training Set 
