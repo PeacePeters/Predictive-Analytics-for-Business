@@ -45,8 +45,8 @@ From our plot, we can see that the model appears on average to be a good predict
 
       * by using a formula from the regression model provided that was based previous diamond sales and then applied it to the diamonds that were up for bid to obtain the predicted amount $11,733,522.76 
 
-next is to factor in the 30% margin the investors were looking for 
+      - next is to factor in the 30% margin the investors were looking for 
 
-final predicted bid = 11733522.76 * 0.70 
+      * final predicted bid = 11733522.76 * 0.70 
 
-final predicted bid = $8,213,465.93
+      + final predicted bid = $8,213,465.93
