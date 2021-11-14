@@ -19,3 +19,13 @@ A jewelry company wants to put in a bid to purchase a large set of diamonds but 
    + price = -5269 + 413 * 1.5 + 158.1 * 3 + 454 * 5 
 
    - price = $10,094.80 
+
+## Visualize the Data  
+
+- Plot 1 - Plot the data for the diamonds in the database, with carat on the x-axis and price on the y-axis.  
+
+* Plot 2 - Plot the data for the diamonds for which you are predicting prices with carat on the x-axis and predicted price on the y-axis. 
+
+   + Note: You can also plot both sets of data on the same chart in different colors. 
+
++ What strikes you about this comparison? After seeing this plot, do you feel confident in the model’s ability to predict prices? 
